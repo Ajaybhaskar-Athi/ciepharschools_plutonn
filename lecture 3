@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+//Declaring two variables and performing addtion
+int a,b;
+cout<<"enter two variable values (a and b) seperated by space to perform addition"<<endl;
+cin>>a>>b;
+cout<<"a+b : "<<a+b<<endl;
+return 0;
+}
