@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a,b;
+cout<<"Input two integers"<<endl;
+cin>>a>>b;
+cout<<(a>b) //it  return boolean if true o/p=1 and if false o/p=0
+int c,d;
+cin>>c>>d;
+cout<<(a>b && c>d);
+return 0;
+}
+
+///if else 
+#include<iostream>
+using namespace std;
+int main(){
+int a,b;
+cout<<"Input two integers"<<endl;
+cin>>a;
+cin>>b;
+if(a>b){
+cout<<a<<" is greater than "<<b<<endl;
+}
+else{cout<<"a<<" is less than ">>b<<endl;
+}
+return 0;
+}
+
