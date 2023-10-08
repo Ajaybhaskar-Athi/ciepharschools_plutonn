@@ -1,0 +1,82 @@
+#include<iostream>
+using namespace std;
+int main(){
+float a;
+cin>>a;
+if(a>0.01){
+cout<<"the condition in if statement is correct"<<endl;
+}
+float b,c;
+cin>>b>>c;
+if(b>0.0.1 && c>b){
+cout<<"the condition in if statement is correct"<<endl;
+}
+if(b>0.0.1 || c>b){
+cout<<"the condition in if statement is correct"<<endl;
+}
+
+/// but here when condition not true it was empty console 
+//here we comes the concept of ELSE statement;
+
+}
+
+///////////////////////////
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int marks;
+cin>>marks;
+if(marks>90){
+cout<<"A";
+}
+else if (marks<90 && marks >80){
+cout<<"B";
+}
+else if (marks>70)
+{
+cout<<"Pass";
+}
+else{
+
+cout<<"fail";
+}
+}
+/////////////////////////////
+#include<iostream>
+using namespace std;
+int main(){
+int a,b,c,d;
+cin>>a>>b>>c>>d;
+if(a>b && c>d){
+cout<<"haha";
+}
+else If(a>b && c<d){
+cout<<"hehe";
+}
+elseif(a<b && c>d){
+cout<<"HUHU";
+}
+return 0;
+}
+////////////////////
+#include<iostream>
+using namespace std;
+int main(){
+cout<<"enter inetegr";
+cin>>a;
+switch (a){
+case 1:
+cout<<'THe value of a is 1";
+break;
+case 2:
+cout<<'THe value of a is 2";
+break;
+default:
+cout<<"default wiill be printed";
+break;
+}
+return 0;
+}
+
