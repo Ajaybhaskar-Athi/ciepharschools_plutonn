@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int a,b,c,d;
+cin>>a>>b>>c>>d;
+cout<<"Reversing of elemnts are :" <<d<<c<<b<<a;
+
+    }
+
+but what if there are more elements in that we have arrays;
